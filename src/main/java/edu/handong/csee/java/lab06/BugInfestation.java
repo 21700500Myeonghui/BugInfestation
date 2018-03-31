@@ -40,7 +40,7 @@ public class BugInfestation {
 		{
 			newBugs = population * GROWTH_RATE;//put the multiplication of population and GROWTH_RATE in newBugs
 			newBugVolume = newBugs * ONE_BUG_VOLUME;//put the multiplication of newBugs and ONE_BUG_VOLUME in newBugVolume
-			population += newBugs;//put the addition of population and newBugs in population
+			population += newBugs;//put the addition of population and newBugs in population, This is like 'population=population+newBugs'
 			totalBugVolume+=newBugVolume;//put the addition of totalBugVolume and newBugVolume in totalBugVolume
 			countWeeks+=1;//put the addition of countWeeks and 1 in countWeeks
 
