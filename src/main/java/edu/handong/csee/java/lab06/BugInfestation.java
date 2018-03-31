@@ -51,7 +51,7 @@ public class BugInfestation {
 		System.out.println("after " + countWeeks+ " weeks");//Outputs <the value of countWeeks> weeks"
 		System.out.println("the house will be filled with "+(int)population+" roaches.");//Outputs "the house will be filled with < the value that changes the value of populaton to integer type> cockroaches." 
 		System.out.println("They will fill a volume of " + (int)totalBugVolume+" cubic feet");//Outputs "They will fill a volume of <the value that changes the value of totalBugVolume  to integer type> cubic feet"
-		System.out.println("Better call Debugging Expers Inc");//Outputs the string literal "Better call Debugging Expers Inc"
+		System.out.println("Better call Debugging Experts Inc");//Outputs the string literal "Better call Debugging Experts Inc"
 
 		keyboard.close();//Close Scanner Object
 
