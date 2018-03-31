@@ -28,7 +28,7 @@ public class BugInfestation {
 		System.out.print("Enter the total volume of your house in cubic feet:");//Outputs the string literal "Enter the total volume of your house in cubic feet:"
 		double houseVolume = keyboard.nextDouble();//Create double type local variable houseVolume, Take one double from the keyboard and place it in the houseVolume
 
-		System.out.print("Enter the estimated number of roaches in your house:");//Outputs the string literal "Enter the estimated number of roaches in your house:" 
+		System.out.print("Enter the estimated number of roaches in your house:");//Outputs the string literal "Enter the estimated number of cockroaches in your house:" 
 		int startPopulation = keyboard.nextInt();//Create integer type local variable startPopulation, Take one integer from the keyboard and place it in the startPopulation
 
 		double population = startPopulation;//Create double type local variable population, put startPopulation in population
@@ -49,7 +49,7 @@ public class BugInfestation {
 		System.out.println("Starting with a roach population of " + startPopulation);//Outputs "Starting with a cockroach population of <the value of startPopulation>"
 		System.out.println("and a house with a volume of " + houseVolume + " cubic feet");//Outputs "and a house with a volume of <the value of houseVolume> cubic feet"
 		System.out.println("after " + countWeeks+ " weeks");//Outputs <the value of countWeeks> weeks"
-		System.out.println("the house will be filled with "+(int)population+" roaches.");//Outputs "the house will be filled with < the value that changes the value of populaton to integer type> roaches." 
+		System.out.println("the house will be filled with "+(int)population+" roaches.");//Outputs "the house will be filled with < the value that changes the value of populaton to integer type> cockroaches." 
 		System.out.println("They will fill a volume of " + (int)totalBugVolume+" cubic feet");//Outputs "They will fill a volume of <the value that changes the value of totalBugVolume  to integer type> cubic feet"
 		System.out.println("Better call Debugging Expers Inc");//Outputs the string literal "Better call Debugging Expers Inc"
 
